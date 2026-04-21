@@ -81,16 +81,29 @@ http://localhost:3000
 
 ## 📡 API Endpoints
 
+### 🔹 Register user
+
+```
+POST /api/auth/register
+```
+
+
+### 🔹 Login user
+
+```
+POST /api/auth/login
+```
+
 ### 🔹 Create Task
 
 ```
-POST /tasks
+POST /api/task/create-task
 ```
 
 ### 🔹 Get Single Task
 
 ```
-GET /tasks/:id
+GET /api/task/get-task/:id
 ```
 
 
