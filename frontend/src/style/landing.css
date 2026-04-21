@@ -1,0 +1,40 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.landing-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.landing-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.landing-link {
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+
+.landing-link.login {
+  background: #4f8cff;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.15);
+}
+
+.landing-link.register {
+  background: #43e97b;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(67,233,123,0.15);
+}
